@@ -9,7 +9,6 @@
         .container{
             height: 400px;
             max-width: 300px;
-            margin: 0 auto;
             display: flex;
             flex-wrap: wrap;
             border: 1px solid;
@@ -22,10 +21,31 @@
             text-align: center;
             color: green;
             margin: 2px;
+            border: 2px solid;
         }
 
         .stretch{
-            align-items: stretch;
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+        .space-between{
+            align-content: space-between;
         }
     </style>
 </head>
@@ -42,6 +62,62 @@
         <div class="item">ere isn't anything embarrassing </div>
         <div class="item">rmal distribution</div>
     </div>
+
+    <p>Center</p>
+    <div class="container center">
+        <div class="item"> it to make a </div>
+        <div class="item">ority have suffered </div>
+        <div class="item">simply</div>
+        <div class="item">Lorem Ipsum - All the facts - Lipsum generator</div>
+        <div class="item">recently with desktop publishing software </div>
+        <div class="item">ere isn't anything embarrassing </div>
+        <div class="item">rmal distribution</div>
+    </div>
     
+    <p>Flex Start</p>
+    <div class="container flex-start">
+        <div class="item"> it to make a </div>
+        <div class="item">ority have suffered </div>
+        <div class="item">simply</div>
+        <div class="item">Lorem Ipsum - All the facts - Lipsum generator</div>
+        <div class="item">recently with desktop publishing software </div>
+        <div class="item">ere isn't anything embarrassing </div>
+        <div class="item">rmal distribution</div>
+    </div>
+
+    <p>Flex End</p>
+    <div class="container flex-end">
+        <div class="item"> it to make a </div>
+        <div class="item">ority have suffered </div>
+        <div class="item">simply</div>
+        <div class="item">Lorem Ipsum - All the facts - Lipsum generator</div>
+        <div class="item">recently with desktop publishing software </div>
+        <div class="item">ere isn't anything embarrassing </div>
+        <div class="item">rmal distribution</div>
+    </div>
+
+    <p>Space Around</p>
+    <div class="container space-around">
+        <div class="item"> it to make a </div>
+        <div class="item">ority have suffered </div>
+        <div class="item">simply</div>
+        <div class="item">Lorem Ipsum - All the facts - Lipsum generator</div>
+        <div class="item">recently with desktop publishing software </div>
+        <div class="item">ere isn't anything embarrassing </div>
+        <div class="item">rmal distribution</div>
+    </div>
+
+    <p>Space between</p>
+    <div class="container space-between">
+        <div class="item"> it to make a </div>
+        <div class="item">ority have suffered </div>
+        <div class="item">simply</div>
+        <div class="item">Lorem Ipsum - All the facts - Lipsum generator</div>
+        <div class="item">recently with desktop publishing software </div>
+        <div class="item">ere isn't anything embarrassing </div>
+        <div class="item">rmal distribution</div>
+    </div>
+
+
 </body>
 </html>
