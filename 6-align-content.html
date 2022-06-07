@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align content</title>
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid;
+        }
+
+        .item{
+            background-color: orange;
+            padding: 0 5px;
+            flex: 1;
+            text-align: center;
+            color: green;
+            margin: 2px;
+        }
+
+        .stretch{
+            align-items: stretch;
+        }
+    </style>
+</head>
+<body>
+    <p>Stretch</p>
+    <div class="container stretch">
+        <div class="item"> it to make a type specimen book. It has survived not only
+             five centuries, but also the leap </div>
+        <div class="item">ority have suffered </div>
+        <div class="item">simply</div>
+        <div class="item">Lorem Ipsum - All the facts - Lipsum generator</div>
+        <div class="item">recently with desktop publishing software like Aldus PageMaker 
+            including versions of Lorem I</div>
+        <div class="item">ere isn't anything embarrassing </div>
+        <div class="item">rmal distribution</div>
+    </div>
+    
+</body>
+</html>
